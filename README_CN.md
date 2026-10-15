@@ -29,7 +29,7 @@ ShotLock 把两件事拆开：**模型负责写内容，脚本负责守一致性
 不需要安装，除标准库外零依赖：
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/shotlock.git
+git clone https://github.com/nianjiang888/shotlock.git
 cd shotlock
 python -m shotlock examples/good_deck.json
 ```

@@ -29,7 +29,7 @@ ShotLock separates the two jobs: **the model writes content, the script enforces
 No install step, no dependencies beyond the standard library:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/shotlock.git
+git clone https://github.com/nianjiang888/shotlock.git
 cd shotlock
 python -m shotlock examples/good_deck.json
 ```
