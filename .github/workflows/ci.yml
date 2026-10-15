@@ -22,8 +22,8 @@ jobs:
         run: python -m shotlock examples/good_deck.json
       - name: Bad deck must block
         run: |
-          python -m shotlock examples/bad_deck.json
-          if [ $? -ne 1 ]; then
-            echo "坏样例必须返回退出码 1"
+          if python -m shotlock examples/bad_deck.json; then
+            echo "::error::bad_deck.json 应当被拦截（返回非零退出码），但它通过了"
             exit 1
           fi
+          echo "OK: bad_deck.json 被正确拦截（含 P0/P1 问题）"
