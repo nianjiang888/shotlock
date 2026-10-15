@@ -1,0 +1,142 @@
+{
+  "title": "夜班便利店 · 写坏的版本",
+  "spec_version": "0.1",
+  "verdict": "阻断",
+  "blocked": true,
+  "counts": {
+    "阻断": 5,
+    "严重": 6,
+    "建议": 7
+  },
+  "total_duration_sec": 51.3,
+  "target_duration_sec": 20.0,
+  "shot_count": 11,
+  "issues": [
+    {
+      "rule_id": "SL001",
+      "level": "P0",
+      "shot_id": "sh_007",
+      "message": "景别取值非法：SUPER_CLOSE",
+      "hint": "合法值：EXTREME_WIDE, WIDE, FULL, MEDIUM, CLOSE_UP, EXTREME_CLOSE_UP, INSERT, OTS, TWO_SHOT, POV"
+    },
+    {
+      "rule_id": "SL002",
+      "level": "P0",
+      "shot_id": "sh_001",
+      "message": "镜头时长 0.8s 低于下限 1.5s，实际不可剪",
+      "hint": "合并到相邻镜头，或延长到 1.5s 以上"
+    },
+    {
+      "rule_id": "SL003",
+      "level": "P0",
+      "shot_id": "sh_008",
+      "message": "台词 64 字 / 3.0s = 21.3 字每秒，超过上限 7.5，配音念不完",
+      "hint": "砍到 22 字以内，或把镜头延长到 8.5s"
+    },
+    {
+      "rule_id": "SL006",
+      "level": "P0",
+      "shot_id": "sh_009",
+      "message": "镜头引用了未注册角色：c_boss",
+      "hint": "在 characters 里补上该角色的外貌定义，出图才能保持一致性"
+    },
+    {
+      "rule_id": "SL007",
+      "level": "P0",
+      "shot_id": "sh_011",
+      "message": "镜头引用了未注册场景：s_99",
+      "hint": ""
+    },
+    {
+      "rule_id": "SL002",
+      "level": "P1",
+      "shot_id": "sh_007",
+      "message": "镜头时长 30.0s 超过上限 25.0s",
+      "hint": "拆成两个镜头，中间插 reaction 或 insert"
+    },
+    {
+      "rule_id": "SL004",
+      "level": "P1",
+      "shot_id": "sh_002",
+      "message": "角色 林晚 的发长漂移：角色表是「长发」，本镜头写成了「短发」",
+      "hint": "出图会串脸。要么改本镜头描述，要么改角色表并同步全剧"
+    },
+    {
+      "rule_id": "SL005",
+      "level": "P1",
+      "shot_id": "sh_010",
+      "message": "场景 s_01 的时间被改成「正午」，与场景表定义的「深夜」冲突",
+      "hint": "如果是时间流逝，请拆成新场景"
+    },
+    {
+      "rule_id": "SL008",
+      "level": "P1",
+      "shot_id": "sh_003",
+      "message": "疑似越轴：林晚, 周野 的画面左右位置在镜头 sh_002 → sh_003 之间整体对调",
+      "hint": "插一个全景或骑轴镜头重设轴线，或把本镜头的 screen_dir 改回上一镜的配置"
+    },
+    {
+      "rule_id": "SL009",
+      "level": "P1",
+      "shot_id": "-",
+      "message": "总时长 51.3s，目标 20.0s，超出 31.3s（偏差 156%）",
+      "hint": "把偏差压到 15% 以内，平台分集时长是按这个切的"
+    },
+    {
+      "rule_id": "SL010",
+      "level": "P1",
+      "shot_id": "sh_006",
+      "message": "连续第 3 个叠化转场，节奏会被拖垮",
+      "hint": "叠化只用于时间跳跃，对话段落用 CUT"
+    },
+    {
+      "rule_id": "SL003",
+      "level": "P2",
+      "shot_id": "sh_003",
+      "message": "台词 4 字 / 2.0s = 2.0 字每秒，低于 2.2，听着拖",
+      "hint": "加到 5 字以上，或把镜头压到 1.8s"
+    },
+    {
+      "rule_id": "SL010",
+      "level": "P2",
+      "shot_id": "sh_001",
+      "message": "开场用了 DISSOLVE，短剧开场一般用硬开或淡入",
+      "hint": "改成 FADE_IN 或 CUT"
+    },
+    {
+      "rule_id": "SL011",
+      "level": "P2",
+      "shot_id": "sh_002~sh_006",
+      "message": "连续 5 个 MEDIUM，平均单镜 2.0s",
+      "hint": "中间插入反打、insert 或换景别，打破视觉惯性"
+    },
+    {
+      "rule_id": "SL012",
+      "level": "P2",
+      "shot_id": "sh_002~sh_007",
+      "message": "连续 6 个镜头情绪都是 tense",
+      "hint": "给其中一两个镜头换情绪，或加一个 reaction 镜头"
+    },
+    {
+      "rule_id": "SL013",
+      "level": "P2",
+      "shot_id": "sh_008",
+      "message": "字幕约 66 字宽，超过建议上限 18",
+      "hint": "拆成两条字幕分到两个镜头，或精简文案"
+    },
+    {
+      "rule_id": "SL014",
+      "level": "P2",
+      "shot_id": "sh_002",
+      "message": "角色 林晚 的「关东煮」在 sh_002 消失、sh_003 又出现",
+      "hint": "要么保留到底，要么加一个放下/拿起的动作镜头"
+    },
+    {
+      "rule_id": "SL015",
+      "level": "P2",
+      "shot_id": "sh_001",
+      "message": "场景「便利店收银台前」首次出现用了 CLOSE_UP，没有建置镜头",
+      "hint": "短剧可以省，但换个场景时给一个 WIDE 更稳"
+    }
+  ]
+}

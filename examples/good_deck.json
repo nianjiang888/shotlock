@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "夜班便利店 · 第一集片段",
+    "episode": 1,
+    "genre": "都市",
+    "aspect_ratio": "9:16",
+    "target_duration_sec": 14
+  },
+  "characters": [
+    {
+      "id": "c_lin",
+      "name": "林晚",
+      "appearance": {
+        "hair": "黑色长发",
+        "outfit": "米色风衣",
+        "age_marker": "二十七八"
+      },
+      "traits": ["话少", "观察型"]
+    },
+    {
+      "id": "c_zhou",
+      "name": "周野",
+      "appearance": {
+        "hair": "短发",
+        "outfit": "深蓝色工装",
+        "age_marker": "三十出头"
+      },
+      "traits": ["疲惫", "嘴上不饶人"]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s_01",
+      "location": "便利店收银台前",
+      "time_of_day": "深夜",
+      "lighting": "冷白顶灯",
+      "int_ext": "INT"
+    }
+  ],
+  "shots": [
+    {
+      "id": "sh_001",
+      "scene_id": "s_01",
+      "duration_sec": 3.5,
+      "shot_size": "WIDE",
+      "camera_move": "STATIC",
+      "transition_in": "FADE_IN",
+      "characters": [{"id": "c_lin", "screen_dir": "center", "holding": "关东煮"}],
+      "dialogue": [],
+      "emotion": "neutral",
+      "action": "林晚推门进来，风铃响了一声",
+      "notes": "建置镜头，交代店里没人"
+    },
+    {
+      "id": "sh_002",
+      "scene_id": "s_01",
+      "duration_sec": 1.8,
+      "shot_size": "MEDIUM",
+      "camera_move": "STATIC",
+      "transition_in": "CUT",
+      "characters": [
+        {"id": "c_lin", "screen_dir": "left", "holding": "关东煮"},
+        {"id": "c_zhou", "screen_dir": "right"}
+      ],
+      "dialogue": [{"speaker": "c_lin", "text": "还没打烊吧。", "subtitle": "还没打烊吧。"}],
+      "emotion": "calm",
+      "action": "林晚把关东煮放在台上"
+    },
+    {
+      "id": "sh_003",
+      "scene_id": "s_01",
+      "duration_sec": 1.6,
+      "shot_size": "CLOSE_UP",
+      "camera_move": "STATIC",
+      "transition_in": "CUT",
+      "characters": [
+        {"id": "c_lin", "screen_dir": "left"},
+        {"id": "c_zhou", "screen_dir": "right"}
+      ],
+      "dialogue": [{"speaker": "c_zhou", "text": "最后一单。", "subtitle": "最后一单。"}],
+      "emotion": "calm",
+      "action": "周野没抬头，扫码"
+    },
+    {
+      "id": "sh_004",
+      "scene_id": "s_01",
+      "duration_sec": 4.0,
+      "shot_size": "TWO_SHOT",
+      "camera_move": "STATIC",
+      "transition_in": "CUT",
+      "characters": [
+        {"id": "c_lin", "screen_dir": "left"},
+        {"id": "c_zhou", "screen_dir": "right"}
+      ],
+      "dialogue": [],
+      "emotion": "neutral",
+      "action": "两个人隔着台子站了几秒，谁都没先走",
+      "notes": "关东煮已经在 sh_002 放到台上了，这里不能再出现，否则触发 SL014"
+    },
+    {
+      "id": "sh_005",
+      "scene_id": "s_01",
+      "duration_sec": 3.0,
+      "shot_size": "FULL",
+      "camera_move": "DOLLY",
+      "transition_in": "FADE_OUT",
+      "characters": [{"id": "c_lin", "screen_dir": "center", "holding": "纸袋"}],
+      "dialogue": [],
+      "emotion": "neutral",
+      "action": "林晚拎着袋子出门，风铃又响"
+    }
+  ]
+}

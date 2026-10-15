@@ -1,0 +1,29 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run rule tests
+        run: python -m unittest discover tests
+      - name: Good deck must pass
+        run: python -m shotlock examples/good_deck.json
+      - name: Bad deck must block
+        run: |
+          python -m shotlock examples/bad_deck.json
+          if [ $? -ne 1 ]; then
+            echo "坏样例必须返回退出码 1"
+            exit 1
+          fi

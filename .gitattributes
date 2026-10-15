@@ -1,0 +1,8 @@
+# 强制文本文件使用 LF 换行，避免 Windows/macOS/Linux 混用导致 diff 噪声
+* text=auto eol=lf
+
+*.py text
+*.md text
+*.json text
+*.yml text
+*.txt text

@@ -1,0 +1,182 @@
+{
+  "_comment": "这是一份故意写坏的分镜，用来演示 15 条规则分别抓什么。不要拿它当模板。",
+  "meta": {
+    "title": "夜班便利店 · 写坏的版本",
+    "episode": 1,
+    "genre": "都市",
+    "aspect_ratio": "9:16",
+    "target_duration_sec": 20
+  },
+  "characters": [
+    {
+      "id": "c_lin",
+      "name": "林晚",
+      "appearance": {"hair": "黑色长发", "outfit": "米色风衣", "age_marker": "二十七八"},
+      "traits": ["话少"]
+    },
+    {
+      "id": "c_zhou",
+      "name": "周野",
+      "appearance": {"hair": "短发", "outfit": "深蓝色工装", "age_marker": "三十出头"},
+      "traits": ["疲惫"]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s_01",
+      "location": "便利店收银台前",
+      "time_of_day": "深夜",
+      "lighting": "冷白顶灯",
+      "int_ext": "INT"
+    }
+  ],
+  "shots": [
+    {
+      "id": "sh_001",
+      "scene_id": "s_01",
+      "duration_sec": 0.8,
+      "shot_size": "CLOSE_UP",
+      "camera_move": "STATIC",
+      "transition_in": "DISSOLVE",
+      "characters": [{"id": "c_lin", "screen_dir": "center", "holding": "关东煮"}],
+      "dialogue": [],
+      "emotion": "neutral",
+      "action": "林晚推门进来",
+      "notes": "0.8s 剪不出来；开场用叠化；场景首次出现没有建置"
+    },
+    {
+      "id": "sh_002",
+      "scene_id": "s_01",
+      "duration_sec": 2.0,
+      "shot_size": "MEDIUM",
+      "camera_move": "STATIC",
+      "transition_in": "CUT",
+      "characters": [
+        {"id": "c_lin", "screen_dir": "left", "appearance_note": "利落短发", "holding": ""},
+        {"id": "c_zhou", "screen_dir": "right"}
+      ],
+      "dialogue": [{"speaker": "c_lin", "text": "还没打烊吧。", "subtitle": "还没打烊吧。"}],
+      "emotion": "tense",
+      "action": "林晚放下关东煮"
+    },
+    {
+      "id": "sh_003",
+      "scene_id": "s_01",
+      "duration_sec": 2.0,
+      "shot_size": "MEDIUM",
+      "camera_move": "STATIC",
+      "transition_in": "CUT",
+      "characters": [
+        {"id": "c_lin", "screen_dir": "right", "holding": "关东煮"},
+        {"id": "c_zhou", "screen_dir": "left"}
+      ],
+      "dialogue": [{"speaker": "c_zhou", "text": "最后一单。", "subtitle": "最后一单。"}],
+      "emotion": "tense",
+      "action": "周野扫码"
+    },
+    {
+      "id": "sh_004",
+      "scene_id": "s_01",
+      "duration_sec": 2.0,
+      "shot_size": "MEDIUM",
+      "camera_move": "STATIC",
+      "transition_in": "DISSOLVE",
+      "characters": [{"id": "c_lin", "screen_dir": "right"}],
+      "dialogue": [],
+      "emotion": "tense",
+      "action": "林晚看着他"
+    },
+    {
+      "id": "sh_005",
+      "scene_id": "s_01",
+      "duration_sec": 2.0,
+      "shot_size": "MEDIUM",
+      "camera_move": "STATIC",
+      "transition_in": "DISSOLVE",
+      "characters": [{"id": "c_zhou", "screen_dir": "left"}],
+      "dialogue": [],
+      "emotion": "tense",
+      "action": "周野抬眼"
+    },
+    {
+      "id": "sh_006",
+      "scene_id": "s_01",
+      "duration_sec": 2.0,
+      "shot_size": "MEDIUM",
+      "camera_move": "STATIC",
+      "transition_in": "DISSOLVE",
+      "characters": [{"id": "c_lin", "screen_dir": "right"}],
+      "dialogue": [],
+      "emotion": "tense",
+      "action": "林晚没说话"
+    },
+    {
+      "id": "sh_007",
+      "scene_id": "s_01",
+      "duration_sec": 30.0,
+      "shot_size": "SUPER_CLOSE",
+      "camera_move": "STATIC",
+      "transition_in": "CUT",
+      "characters": [{"id": "c_lin", "screen_dir": "center"}],
+      "dialogue": [],
+      "emotion": "tense",
+      "action": "长时间静止特写"
+    },
+    {
+      "id": "sh_008",
+      "scene_id": "s_01",
+      "duration_sec": 3.0,
+      "shot_size": "CLOSE_UP",
+      "camera_move": "STATIC",
+      "transition_in": "CUT",
+      "characters": [{"id": "c_zhou", "screen_dir": "center"}],
+      "dialogue": [
+        {
+          "speaker": "c_zhou",
+          "text": "你以为我不知道你在想什么吗，从你第一天来这个店上班我就看得出来，你根本没有把这里当成一份正经工作，你只是在混日子，等一个根本不会来的机会。",
+          "subtitle": "你以为我不知道你在想什么吗，从你第一天来这个店上班我就看得出来，你根本没有把这里当成一份正经工作，你只是在混日子，等一个根本不会来的机会。"
+        }
+      ],
+      "emotion": "angry",
+      "action": "周野一口气说完"
+    },
+    {
+      "id": "sh_009",
+      "scene_id": "s_01",
+      "duration_sec": 2.0,
+      "shot_size": "MEDIUM",
+      "camera_move": "STATIC",
+      "transition_in": "CUT",
+      "characters": [{"id": "c_boss", "screen_dir": "center"}],
+      "dialogue": [],
+      "emotion": "neutral",
+      "action": "店长从后场出来"
+    },
+    {
+      "id": "sh_010",
+      "scene_id": "s_01",
+      "duration_sec": 3.0,
+      "shot_size": "WIDE",
+      "camera_move": "STATIC",
+      "transition_in": "CUT",
+      "characters": [{"id": "c_lin", "screen_dir": "center"}],
+      "dialogue": [],
+      "emotion": "neutral",
+      "action": "正午的光从门口斜进来",
+      "continuity_override": {"time_of_day": "正午"}
+    },
+    {
+      "id": "sh_011",
+      "scene_id": "s_99",
+      "duration_sec": 2.5,
+      "shot_size": "WIDE",
+      "camera_move": "STATIC",
+      "transition_in": "FADE_OUT",
+      "characters": [{"id": "c_lin", "screen_dir": "center"}],
+      "dialogue": [],
+      "emotion": "neutral",
+      "action": "林晚走在街上",
+      "notes": "s_99 没有在 scenes 里注册"
+    }
+  ]
+}

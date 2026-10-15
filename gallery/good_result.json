@@ -1,0 +1,15 @@
+{
+  "title": "夜班便利店 · 第一集片段",
+  "spec_version": "0.1",
+  "verdict": "通过",
+  "blocked": false,
+  "counts": {
+    "阻断": 0,
+    "严重": 0,
+    "建议": 0
+  },
+  "total_duration_sec": 13.9,
+  "target_duration_sec": 14.0,
+  "shot_count": 5,
+  "issues": []
+}
