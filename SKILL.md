@@ -1,6 +1,6 @@
 ---
 name: shotlock
-description: 生成短剧分镜脚本时用。把剧本转成 ShotLock 分镜 JSON，再用校验引擎查出角色漂移、越轴、语速超载、时长失衡等一致性问题并逐轮修正，直到 P0 全过。适用于 AI 短剧、漫剧、竖屏短片的分镜产出。
+description: "Generate and validate short-drama storyboards. Turn a script into ShotLock storyboard JSON, then run the checker to catch character drift, axis jumps, speech-rate overload and duration imbalance, iterating until zero P0 issues. For AI short dramas, comic dramas and vertical shorts. 生成短剧分镜脚本时用：把剧本转成 ShotLock 分镜 JSON，用校验引擎查出角色漂移、越轴、语速超载、时长失衡等一致性问题并逐轮修正，直到 P0 全过。适用于 AI 短剧、漫剧、竖屏短片的分镜产出。"
 agent_created: true
 ---
 
