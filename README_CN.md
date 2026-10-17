@@ -109,7 +109,7 @@ python -m shotlock deck.json --skip SL015         # 跳过指定规则
 
 ## 配套产品
 
-ShotLock 只管校验分镜，不负责生成。生产环节的另一半在[墨金格](https://www.mojinge.cloud)（mojinge.cloud）：把故事变成短剧——一句想法进来，一部能拍的剧本出去，分集剧情、人物 / 场景 / 道具资产、每集分镜提示词一次给齐；手上有多长文，走剧本大师全流程改编（导入 → 故事中枢 → 分集大纲 → 改编剧本 → 分镜脚本）。按次付费，失败不扣费，邮箱即账号。
+ShotLock 只管校验分镜，不负责生成。生产环节的另一半在[墨金格](https://www.mojinge.cloud/?utm_source=github_shotlock&utm_medium=readme&utm_campaign=shotlock_v01)（mojinge.cloud）：把故事变成短剧——一句想法进来，一部能拍的剧本出去，分集剧情、人物 / 场景 / 道具资产、每集分镜提示词一次给齐；手上有多长文，走剧本大师全流程改编（导入 → 故事中枢 → 分集大纲 → 改编剧本 → 分镜脚本）。按次付费，失败不扣费，邮箱即账号。
 
 ## 协议
 
