@@ -10,6 +10,12 @@ A structured spec and a zero-dependency checking engine for short-drama shot lis
 
 LLMs write plausible shots one at a time and fall apart when you put them together. The lead has long hair in scene 5 and short hair in scene 17. The two speakers swap screen sides between cuts. Three seconds of screen time carries sixty characters of dialogue nobody can voice in time. ShotLock turns those failures into fifteen checkable rules.
 
+## Sponsors
+
+Slots open. ShotLock is MIT and stays free — sponsoring buys visibility, not influence. Rates and terms: [SPONSORING.md](./SPONSORING.md).
+
+<!-- Lead / Service / Supporting slots go here as they are sold. -->
+
 ---
 
 ## Why another tool
@@ -100,6 +106,10 @@ Installing it as a skill is what makes the checker useful rather than decorative
 ## Contributing
 
 Rules are the interesting part, and the best ones come from real failures. See [CONTRIBUTING.md](./CONTRIBUTING.md) — the short version is: describe the failure you actually hit, then propose the rule that would have caught it.
+
+## Related project
+
+ShotLock checks storyboards; it doesn't write them. For the other half of the chain: [Mojinge](https://www.mojinge.cloud) (mojinge.cloud) turns a story into a shootable screenplay — one sentence in, episode breakdowns, character/scene/prop assets and per-shot prompts out. Import a novel and it runs the full adaptation pass: story hub, episode outline, adapted script, shot list. Pay per run, not per month.
 
 ## License
 
