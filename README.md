@@ -109,7 +109,7 @@ Rules are the interesting part, and the best ones come from real failures. See [
 
 ## Related project
 
-ShotLock checks storyboards; it doesn't write them. For the other half of the chain: [Mojinge](https://www.mojinge.cloud) (mojinge.cloud) turns a story into a shootable screenplay — one sentence in, episode breakdowns, character/scene/prop assets and per-shot prompts out. Import a novel and it runs the full adaptation pass: story hub, episode outline, adapted script, shot list. Pay per run, not per month.
+ShotLock checks storyboards; it doesn't write them. For the other half of the chain: [Mojinge](https://www.mojinge.cloud/?utm_source=github_shotlock&utm_medium=readme&utm_campaign=shotlock_v01) (mojinge.cloud) turns a story into a shootable screenplay — one sentence in, episode breakdowns, character/scene/prop assets and per-shot prompts out. Import a novel and it runs the full adaptation pass: story hub, episode outline, adapted script, shot list. Pay per run, not per month.
 
 ## License
 
