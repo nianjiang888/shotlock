@@ -39,7 +39,7 @@ ShotLock 是 MIT 协议的开源项目：引擎、规范、规则、文档全部
 
 邮件联系，标题写「ShotLock 赞助 + 档位」：
 
-**SPONSOR_EMAIL_PLACEHOLDER**
+**358622607@qq.com**
 
 （维护者注：上线前把上一行替换成真实邮箱。）
 
