@@ -5,6 +5,7 @@ English | [中文](./README_CN.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![No dependencies](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](./shotlock)
+[![SkillHub.pm](https://img.shields.io/badge/SkillHub.pm-listed-blueviolet.svg)](https://skillhub.pm/skills/shotlock)
 
 A structured spec and a zero-dependency checking engine for short-drama shot lists.
 
