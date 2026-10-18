@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![无第三方依赖](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](./shotlock)
+[![SkillHub.pm](https://img.shields.io/badge/SkillHub.pm-已上架-blueviolet.svg)](https://skillhub.pm/skills/shotlock)
 
 一套分镜脚本规范，加一个零依赖的校验引擎。
 
